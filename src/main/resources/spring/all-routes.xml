@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<routes id="routes1" xmlns="http://camel.apache.org/schema/spring">
+    <route id="_route1">
+        <from id="_from1" uri="direct:hello"/>
+        <transform id="_transform1">
+            <constant>Welcome, {{greeting.constant}} </constant>
+        </transform>
+        <log id="_log1" message="Received message .. service completed......."/>
+    </route>
+</routes>
