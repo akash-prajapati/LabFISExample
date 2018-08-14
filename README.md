@@ -1,6 +1,20 @@
 # Spring-Boot Camel FIS Project - AKASH
 
+# mvn clean install
 
+# RUN WITH FOR local
+# mvn -Dspring.profiles.active=local spring-boot:run
+
+
+# RUN WITH FOR DEV
+# mvn -Dspring.profiles.active=dev spring-boot:run
+
+
+# RUN WITH FOR QA
+# mvn -Dspring.profiles.active=qa spring-boot:run
+
+# RUN WITH FOR PROD
+# mvn -Dspring.profiles.active=prod spring-boot:run
 
 ####################################
 # http://localhost:8080/fis/service/hello
